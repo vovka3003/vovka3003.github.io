@@ -10,7 +10,7 @@
 <tbody>
 <tr class="lgf">
 <td style="padding: 0.7em;">
-<p style="text-align: left;"><a href="/viewtopic.php?f=5&amp;t=85" target="_blank"><strong><span style="color: #000099;">1. Всплывающие подсказки при наведении мыши</span></strong></a></p>
+<p style="text-align: left;"><a href="/dx_extentions/Всплывающие подсказки при наведении мыши.html" target="_blank"><strong><span style="color: #000099;">1. Всплывающие подсказки при наведении мыши</span></strong></a></p>
 </td>
 <td style="padding: 0.7em;">
 <p>Действие добавляет всплывающие подсказки для выбранных компонентов формы. (устанавливается в действии формы) &nbsp;</p>
