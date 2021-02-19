@@ -4,7 +4,7 @@ function waitUntilElementPresent(tagName, timeoutInSeconds) {
     var endTime = currentTime + timeoutInSeconds * 1000;
     var checkExist = setInterval(function () {
 		var sections = document.getElementsByTagName('section');
-        if (sections[sections.length-1].innerText == 'Site was created with Mobirise site themes') {
+        if (sections[sections.length-1].innerText.indexOf('with Mobirise')) {
             clearInterval(checkExist);
 			var sections = document.getElementsByTagName('section');
 			sections[sections.length-1].innerHTML = '';
@@ -21,4 +21,4 @@ function waitUntilElementPresent(tagName, timeoutInSeconds) {
     }, 100); 
 }
 
-waitUntilElementPresent('section',10);
+waitUntilElementPresent('section',1);
