@@ -9,19 +9,19 @@ body {
 }
 .display-1 {
   font-family: 'Jost', sans-serif;
-  font-size: 4.6rem;
-  line-height: 1.1;
-}
-.display-1 > .mbr-iconfont {
-  font-size: 5.75rem;
-}
-.display-2 {
-  font-family: 'Jost', sans-serif;
   font-size: 3rem;
   line-height: 1.1;
 }
-.display-2 > .mbr-iconfont {
+.display-1 > .mbr-iconfont {
   font-size: 3.75rem;
+}
+.display-2 {
+  font-family: 'Jost', sans-serif;
+  font-size: 2rem;
+  line-height: 1.1;
+}
+.display-2 > .mbr-iconfont {
+  font-size: 2.5rem;
 }
 .display-4 {
   font-family: 'Jost', sans-serif;
@@ -33,11 +33,11 @@ body {
 }
 .display-5 {
   font-family: 'Jost', sans-serif;
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 1.5;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 .display-7 {
   font-family: 'Jost', sans-serif;
@@ -54,19 +54,19 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 992px) {
   .display-1 {
-    font-size: 3.68rem;
+    font-size: 2.4rem;
   }
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.22rem;
-    font-size: calc( 2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.1rem;
+    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 2.4rem;
-    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.3 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.6rem;
+    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.3 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.88rem;
@@ -74,9 +74,9 @@ body {
     line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.28rem;
+    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
     font-size: 0.96rem;
@@ -685,6 +685,14 @@ body {
 a {
   transition: color 0.6s;
 }
+.cid-sprIKGAuT9 {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  background-color: #4c6ca7;
+}
+.cid-sprIKGAuT9 .mbr-section-title {
+  color: #ffffff;
+}
 .cid-sprBclvFYo {
   z-index: 1000;
   width: 100%;
@@ -1040,7 +1048,7 @@ a {
 .cid-sprBR5DSn0 {
   padding-top: 2rem;
   padding-bottom: 1rem;
-  background-color: #fafafa;
+  background-color: #f2f2f2;
 }
 @media (max-width: 767px) {
   .cid-sprBR5DSn0 .card-box {
@@ -1079,7 +1087,7 @@ a {
 .cid-sprFOpEda9 {
   padding-top: 0rem;
   padding-bottom: 1rem;
-  background-color: #fafafa;
+  background-color: #f2f2f2;
 }
 @media (max-width: 767px) {
   .cid-sprFOpEda9 .card-box {
@@ -1115,43 +1123,8 @@ a {
 .cid-sprFOpEda9 .card:not(:nth-last-child(1)) {
   margin-bottom: 2rem;
 }
-.cid-sprBTmT5mo {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
-}
-.cid-sprBTmT5mo .top-line {
-  display: flex;
-  justify-content: space-between;
-}
-.cid-sprBTmT5mo .mbr-section-title,
-.cid-sprBTmT5mo .mbr-section-subtitle {
-  text-align: center;
-}
-.cid-sprBTmT5mo .card:not(:nth-last-child(1)) {
-  margin-bottom: 2rem;
-}
-.cid-sprBTmT5mo .card-wrapper {
-  border-radius: 4px;
-  background-color: #fafafa;
-}
-.cid-sprBTmT5mo .image-wrapper img {
-  width: 100%;
-  object-fit: cover;
-}
-@media (max-width: 767px) {
-  .cid-sprBTmT5mo .card-box {
-    padding: 1rem;
-  }
-}
-@media (min-width: 768px) {
-  .cid-sprBTmT5mo .card-box {
-    padding-right: 2rem;
-  }
-}
-@media (min-width: 992px) {
-  .cid-sprBTmT5mo .card-box {
-    padding-left: 2rem;
-    padding-right: 4rem;
-  }
+.cid-sprIxs5Eqj {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #232323;
 }
