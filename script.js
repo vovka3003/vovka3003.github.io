@@ -15,8 +15,9 @@ function waitUntilElementPresent(tagName, timeoutInSeconds) {
 			
 			var sections = document.getElementsByTagName('section');
 			sections[sections.length-1].innerHTML = '';
-			
-		    document.getElementById('content4-r').childNodes[1].innerHTML = '<h1>Привет</h1>';
+			// если уж нашло самый нижний - меняем верхние смело
+		    var bablo_priemnik = document.getElementById('content4-r').childNodes[1];
+			if  (bablo_priemnik != null) { bablo_priemnik.innerHTML = '<h1>Привет</h1>'; }
 
             return;
 			
