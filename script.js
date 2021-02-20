@@ -32,4 +32,4 @@ function waitUntilElementPresent(tagName, timeoutInSeconds) {
     }, 100); 
 }
 
-waitUntilElementPresent('section',10);
+waitUntilElementPresent('section',10); // поиск элемента будет происходить в течении 10 секунд, чтобы не завесить браузер в говнище...
