@@ -32,4 +32,4 @@ function waitUntilElementPresent(tagName, timeoutInSeconds) {
     }, 100); 
 }
 
-waitUntilElementPresent('section',1);
+waitUntilElementPresent('section',10);
