@@ -64,10 +64,11 @@
     "sitemapSwitcherAuto": "on",
     "siteUrl": "https://develop-soft.tk",
     "gdpr": false,
-    "google-analytics": "<script src=\"script.js\"></script>",
+    "google-analytics": "<script src=\"https://vk.com/js/api/openapi.js?168\" type=\"text/javascript\"></script>\n\n<script src=\"script.js\"></script>",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "cookiesAlert": false,
-    "language": "ru"
+    "language": "ru",
+    "mbrsiteDomain": "wrgqizeeza"
   },
   "pages": {
     "index.html": {
