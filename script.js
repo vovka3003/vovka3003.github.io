@@ -34,7 +34,9 @@ function waitUntilElementPresent(tagName, timeoutInSeconds) {
 
 var body = document.getElementsByTagName("body")[0];
 
-body.addEventListener("load", init(), false);
+// body.addEventListener("load", init(), false);
+
+body.addEventListener("load", init, false);
 
 function init() {
         alert("it works!");
