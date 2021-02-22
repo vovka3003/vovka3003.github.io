@@ -32,4 +32,12 @@ function waitUntilElementPresent(tagName, timeoutInSeconds) {
     }, 100); 
 }
 
-waitUntilElementPresent('section',10); // поиск элемента будет происходить в течении 10 секунд, чтобы не завесить браузер в говнище...
+var body = document.getElementsByTagName("body")[0];
+
+body.addEventListener("load", init(), false);
+
+function init() {
+        alert("it works!");
+};
+
+// waitUntilElementPresent('section',10); // поиск элемента будет происходить в течении 10 секунд, чтобы не завесить браузер в говнище...
