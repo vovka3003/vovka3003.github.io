@@ -4,8 +4,8 @@
 window.onload = function(){ 
 
 
-var vk = $x('//h4[contains(text(),"[vk/]")]')[0];
-vk.innerHTML = '<div id="vk_comments"></div><script type="text/javascript">VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});</script>';
+//var vk = $x('//h4[contains(text(),"[vk/]")]')[0];
+//vk.innerHTML = '<div id="vk_comments"></div><script type="text/javascript">VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});</script>';
 
 var kotletopriemnik = document.getElementById('content4-r');
 if (kotletopriemnik != null) {
