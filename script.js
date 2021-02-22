@@ -37,7 +37,7 @@ var eventName = window.addEventListener ? "addEventListener" : "attachEvent";
 document.body[eventName](prefix + "load", init(), false);
 
 function init() {
-        alert("it works!");
+   alert(document.getElementById('footer7-8').innerText);
 };
 
 // waitUntilElementPresent('section',10); // поиск элемента будет происходить в течении 10 секунд, чтобы не завесить браузер в говнище...
