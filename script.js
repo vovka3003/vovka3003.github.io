@@ -32,12 +32,10 @@ function waitUntilElementPresent(tagName, timeoutInSeconds) {
     }, 100); 
 }
 
-var prefix = window.addEventListener ? "" : "on";
-var eventName = window.addEventListener ? "addEventListener" : "attachEvent";
-document.body[eventName](prefix + "load", init, false);
+window.onload = function(){ 
+  alert(document.getElementById('footer7-8').innerText);
+}
+   
 
-function init() {
-   alert(document.getElementById('footer7-8').innerText);
-};
 
 // waitUntilElementPresent('section',10); // поиск элемента будет происходить в течении 10 секунд, чтобы не завесить браузер в говнище...
