@@ -10,7 +10,20 @@
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
  
+ <script>
 
+function sendMsg(){
+    var email = document.getElementById('email');
+	var msg = document.getElementById('msg');
+	
+	let xhr = new XMLHttpRequest();
+	
+	xhr.open('GET', 'https://api.icq.net/bot/v1/messages/sendText?token=001.0094016463.0689561934:752839904&chatId=682660265@chat.agent&text='+email.value+'%0D%0A'+msg.value, true);
+	
+xhr.send();
+}
+
+</script>
  
  
 </head>
@@ -31,19 +44,10 @@
   <label for="exampleFormControlTextarea1" class="form-label">Текст</label>
   <textarea class="form-control" id="msg" rows="3"></textarea>
 </div>
-  <button type="submit" class="btn btn-primary" onclick="send()">Отправить</button>
+  <button type="submit" class="btn btn-primary" onclick="sendMsg()">Отправить</button>
 </form>
 
- <script>
 
-function send(){
-    var email = document.getElementById('email');
-	var msg = document.getElementById('msg');
-	
-	$.get("https://api.icq.net/bot/v1/messages/sendText?token=001.0094016463.0689561934:752839904&chatId=682660265@chat.agent&text="+email.value+'%0D%0A'+msg.value);
-	}
-	
-</script>
 
 	
 </body>
