@@ -1,1 +1,13 @@
 
+<script>
+var inBody = function(){            
+   var xhr = new XMLHttpRequest(); 
+   xhr.open('GET', 'text.html');   
+   xhr.onload = function(){ 
+      console.log(xhr.response);
+      document.body.innerHTML = xhr.response;
+   }
+   xhr.send(); 
+}
+inBody();   
+</script>
