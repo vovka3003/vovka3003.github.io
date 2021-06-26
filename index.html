@@ -1,1 +1,20 @@
+<html lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
 
+  <body>
+  <script>
+  var startPos;
+    var geoSuccess = function(position){
+      startPos = position;
+      var vostok =  startPos.coords.latitude;
+      var sever = startPos.coords.longitude;
+      document.body.innerHTML = 
+        '<a href="https://yandex.ru/maps/4/belgorod/?ll='+sever+'%2C'+vostok+'&z=15" target="_blank">Игхдеэтойа?</a>'
+    };
+
+    navigator.geolocation.getCurrentPosition(geoSuccess);
+  </script>
+  </body>
+</html>
